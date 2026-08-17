@@ -562,6 +562,7 @@
       var overlay = document.getElementById('navOverlay');
       var closeBtn = document.getElementById('overlayClose');
       function setOpen(open) {
+        if (!open && overlay.contains(document.activeElement)) btn.focus();
         overlay.classList.toggle('open', open);
         overlay.setAttribute('aria-hidden', String(!open));
         btn.setAttribute('aria-expanded', String(open));
