@@ -386,45 +386,43 @@ p:last-of-type { margin-bottom: 0; }
    ============================================================ */
 .doctors { background: var(--cream); }
 
+/* Band geometry measured from the mockup (content width 1500px):
+   band height 423, green block 75.93%, photo overlap = 149px of band
+   baked into the photo itself, so the seam is green-on-green. */
 .doctors-band {
   display: flex;
-  height: 260px;
+  aspect-ratio: 1500 / 423;
 }
 
 .band-green {
-  width: 78%;
-  background: var(--green);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 30px;
+  width: 75.93%;
+  background: #9DBA6D; /* sampled from mockup so the baked photo band matches */
+  padding: 8.27% 0 0 13.07%;
 }
 .band-green h2 {
   color: #fff;
-  text-align: center;
+  text-align: left;
+  font-size: clamp(22px, 2.93vw, 46px);
+  line-height: 1.18;
   margin: 0;
 }
 
 .band-accent {
   flex: 1;
-  background: var(--green-light);
+  background: #CFE0B1; /* sampled from mockup */
 }
 
 .doctors-photo {
   position: relative;
   z-index: 2;
-  margin-top: -140px;
-  max-width: 1160px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 24px;
+  margin-top: -9.933%; /* = baked green depth (149/1500 of width) */
+  line-height: 0;
 }
-.doctors-photo img { width: 100%; }
+.doctors-photo img { width: 100%; height: auto; display: block; }
 
 .doctors-bios {
   background: var(--sage);
   padding: 76px 48px 84px;
-  margin-top: -6px;
 }
 
 .doctors-bios {
@@ -777,10 +775,9 @@ p:last-of-type { margin-bottom: 0; }
   }
   .practice-copy { padding: 64px 24px 80px; max-width: none; }
 
-  .doctors-band { height: auto; }
-  .band-green { padding: 56px 24px 90px; }
-  .band-accent { display: none; }
-  .doctors-photo { margin-top: -70px; }
+  .doctors-band { aspect-ratio: auto; }
+  .band-green { padding: 44px 20px 56px 24px; }
+  .band-green h2 { font-size: 22px; }
   .doctors-bios { grid-template-columns: 1fr; gap: 44px; padding: 60px 24px 68px; }
   .bio-col { max-width: 480px; }
 
@@ -816,7 +813,7 @@ p:last-of-type { margin-bottom: 0; }
   .trust-grid { grid-template-columns: 1fr; gap: 48px; }
   .trust-bar { padding: 72px 24px; }
 
-  .band-green h2 { font-size: 26px; }
+  .band-green h2 { font-size: 19px; }
 
   .heron-banner img { height: 200px; }
 

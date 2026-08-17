@@ -31,15 +31,14 @@
     {
       "file": "images/doctors-trio.webp",
       "fallback": "images/doctors-trio.png",
-      "prompt": "professional studio group portrait of three male dentists standing shoulder to shoulder in crisp white clinical coats, isolated against a completely solid flat uniform pure magenta chroma-key background with no shadows or gradients on the background, left man in his 40s clean-shaven with arms folded, centre man in his 70s with glasses and a blue tie with hands clasped in front, right man in his 30s with a full beard and a red tie, all smiling warmly at camera, even soft studio lighting, three-quarter length, warm sun-washed natural light, Gulf Coast Florida, soft golden tones, photographic, shallow depth of field, no text, no watermark, no logos",
-      "model": "gemini-3.1-flash-image",
+      "prompt": "Not AI-generated: cropped directly from the client mockup (reference/mockup.png, region x150-1650 y2790-3576) and Lanczos-upscaled 1500x786 -> 2250x1179. A gemini-2.5-flash-image image-to-image sharpening pass was attempted and rejected (lower output resolution, band artifacts, embroidery drift).",
+      "model": "none (mockup crop + Lanczos)",
       "generated": {
-        "aspect": "16:9",
-        "size": "4K"
+        "source": "reference/mockup.png"
       },
       "dimensions": {
-        "width": 2000,
-        "height": 1200
+        "width": 2250,
+        "height": 1179
       }
     },
     {
