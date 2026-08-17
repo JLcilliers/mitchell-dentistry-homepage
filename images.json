@@ -24,6 +24,12 @@
       "size": "4K"
     },
     {
+      "out": "images/raw/doctors-magenta.jpg",
+      "prompt": "professional studio group portrait of three male dentists standing shoulder to shoulder in crisp white clinical coats, isolated against a completely solid flat uniform pure magenta chroma-key background with no shadows or gradients on the background, left man in his 40s clean-shaven with arms folded, centre man in his 70s with glasses and a blue tie with hands clasped in front, right man in his 30s with a full beard and a red tie, all smiling warmly at camera, even soft studio lighting, three-quarter length",
+      "aspect": "16:9",
+      "size": "4K"
+    },
+    {
       "out": "images/raw/heron-shoreline.jpg",
       "prompt": "lone heron standing on a pink-lit shoreline at sunset, gentle surf washing in, wide panoramic composition with lots of empty smooth wet sand reflecting pink and gold sky",
       "aspect": "21:9",
@@ -43,9 +49,10 @@
     },
     {
       "out": "images/raw/cerec.jpg",
-      "prompt": "modern dental operatory interior with a chairside CAD-CAM milling unit on a counter, clean bright clinical space, dental chair softly out of focus, no people, daylight through window",
+      "prompt": "modern dental operatory interior with a chairside CAD-CAM milling unit on a counter, completely unbranded blank equipment with no lettering, no labels, no logos, no writing of any kind anywhere in the scene, computer monitor switched off showing a blank dark screen, clean bright clinical space, dental chair softly out of focus, no people, daylight through window",
       "aspect": "3:2",
-      "size": "2K"
+      "size": "2K",
+      "overwrite": true
     },
     {
       "out": "images/raw/cosmetic.jpg",
@@ -55,9 +62,10 @@
     },
     {
       "out": "images/raw/new-patients.jpg",
-      "prompt": "a friendly male dentist in a white coat sitting and talking with a middle-aged female patient in a bright consultation room, both relaxed and conversational, sitting at a small table near a window, no clinical instruments visible, warm natural light",
+      "prompt": "a friendly male dentist in a completely plain white coat with no embroidery, no name tag, no lettering or writing anywhere in the scene, sitting and talking with a middle-aged female patient in a bright consultation room, both relaxed and conversational, sitting at a small table near a window, no clinical instruments visible, warm natural light",
       "aspect": "5:4",
-      "size": "2K"
+      "size": "2K",
+      "overwrite": true
     },
     {
       "out": "images/raw/cta-beach.jpg",
