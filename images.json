@@ -1,0 +1,69 @@
+{
+  "defaults": {
+    "model": "2",
+    "size": "2K",
+    "style": "warm sun-washed natural light, Gulf Coast Florida, soft golden tones, photographic, shallow depth of field, no text, no watermark, no logos"
+  },
+  "images": [
+    {
+      "out": "images/raw/hero-heron.jpg",
+      "prompt": "wide shot of a great blue heron standing on a shell-strewn Sanibel Island beach, turquoise Gulf of Mexico water behind, bright midday sun, shallow depth of field, heron positioned right of centre with wide open pale sand and sky on the left half of the frame",
+      "aspect": "16:9",
+      "size": "4K"
+    },
+    {
+      "out": "images/raw/family-beach.jpg",
+      "prompt": "candid shot of a young family on a beach at golden hour: a father giving his young daughter a piggyback ride and a mother giving her other young daughter a piggyback ride, all four laughing, walking along wet sand, light neutral linen clothing, backlit by low warm sun",
+      "aspect": "1:1",
+      "size": "2K"
+    },
+    {
+      "out": "images/raw/doctors-trio.jpg",
+      "prompt": "professional studio group portrait of three male dentists standing shoulder to shoulder in crisp white clinical coats against a plain warm cream seamless studio background, left man in his 40s clean-shaven with arms folded, centre man in his 70s with glasses and a blue tie with hands clasped in front, right man in his 30s with a full beard and a red tie, all smiling warmly at camera, even soft studio lighting, three-quarter length",
+      "aspect": "16:9",
+      "size": "4K"
+    },
+    {
+      "out": "images/raw/heron-shoreline.jpg",
+      "prompt": "lone heron standing on a pink-lit shoreline at sunset, gentle surf washing in, wide panoramic composition with lots of empty smooth wet sand reflecting pink and gold sky",
+      "aspect": "21:9",
+      "size": "4K"
+    },
+    {
+      "out": "images/raw/couple-hats.jpg",
+      "prompt": "close portrait of a smiling woman in her 50s wearing a straw sun hat being hugged from behind by a smiling bearded man in his 50s wearing a fedora-style sun hat, both showing natural happy teeth, warm backlit sunset on a beach, golden rim light",
+      "aspect": "5:4",
+      "size": "2K"
+    },
+    {
+      "out": "images/raw/woman-grey.jpg",
+      "prompt": "portrait of a confident smiling woman in her 60s with long grey hair, wearing a tan button-up shirt, soft indoor window light, softly blurred warm interior background, natural genuine smile with healthy teeth",
+      "aspect": "4:5",
+      "size": "2K"
+    },
+    {
+      "out": "images/raw/cerec.jpg",
+      "prompt": "modern dental operatory interior with a chairside CAD-CAM milling unit on a counter, clean bright clinical space, dental chair softly out of focus, no people, daylight through window",
+      "aspect": "3:2",
+      "size": "2K"
+    },
+    {
+      "out": "images/raw/cosmetic.jpg",
+      "prompt": "close outdoor portrait of a smiling woman in her 40s with shoulder-length brown hair, natural even white teeth, warm late-afternoon light, softly blurred green foliage background",
+      "aspect": "5:4",
+      "size": "2K"
+    },
+    {
+      "out": "images/raw/new-patients.jpg",
+      "prompt": "a friendly male dentist in a white coat sitting and talking with a middle-aged female patient in a bright consultation room, both relaxed and conversational, sitting at a small table near a window, no clinical instruments visible, warm natural light",
+      "aspect": "5:4",
+      "size": "2K"
+    },
+    {
+      "out": "images/raw/cta-beach.jpg",
+      "prompt": "empty Gulf Coast beach at sunset, soft pink and gold sky with wispy clouds, calm surf, wide panoramic view, smooth sand in foreground, no people",
+      "aspect": "21:9",
+      "size": "4K"
+    }
+  ]
+}
